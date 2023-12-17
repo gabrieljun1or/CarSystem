@@ -5,6 +5,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Update Register</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <nav class="navbar navbar-dark bg-primary"><a class="navbar-brand" href="#"> Update Car System</a></nav>
+
 
 
 
@@ -14,7 +16,7 @@
 <div class="container my-5">
     <div class="row">
         <div class="col-md-8">
-            <h2 class="bg-primary text-white px-5 py-3 my-5">Update</h2>
+            <h2 class="bg-primary text-white px-5 py-3 my-5">Register</h2>
             <div class ="col-lg-12 col-md-12 col-sm-12 container justify-content-center card">
                 <form action="#" th:action="@{/update/{id}(id=${car.id})}" th:object="${car}" method="post" enctype="multipart/form-data">
                     <div class="form-group">
